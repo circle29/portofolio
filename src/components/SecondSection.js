@@ -3,7 +3,13 @@ import profile from "../image/adi photo.png";
 function SecondSection() {
   return (
     <div id="second">
-      <img className="secondpict" src={profile} height="500px" width="500px" />
+      <img
+        className="secondpict"
+        src={profile}
+        height="500px"
+        width="500px"
+        alt="picture"
+      />
       <div>
         <p className="About">About Me</p>
         <p className="description">
